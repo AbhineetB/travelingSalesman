@@ -2,7 +2,7 @@ import numpy as np
 from random import shuffle, randrange
 from time import time
 from numba import jit
-from scipy import weave
+import weave
 
 N_ITER = 10
 
